@@ -58,9 +58,9 @@ if __name__ == "__main__":
     logger.info("Starting NovaPress applications...")
 
     try:
-        # Launch Scraper API (which internally calls uvicorn.run)
-        # It's set to port 8000 in Scraper.py, so we reflect that.
-        scraper_process = run_app_in_background("Scraper.py", 8000)
+        # Launch Scraper API using the standard uvicorn command.
+        # This aligns with FastAPI best practices and allows lifespan events to work correctly.
+        scraper_process = run_app_in_background("Scraper", 8000, app_module="Scraper")
         processes.append(scraper_process)
         time.sleep(5) # Give scraper some time to initialize AI models and MongoDB
 

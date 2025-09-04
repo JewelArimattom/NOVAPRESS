@@ -24,6 +24,7 @@ import threading
 import queue
 from concurrent.futures import ThreadPoolExecutor
 import re
+from contextlib import asynccontextmanager
 
 # Configure logging
 logging.basicConfig(
@@ -69,12 +70,28 @@ except errors.ConnectionFailure as err:
     logger.error(f"❌ MongoDB connection failed: {err}")
     exit()
 
-# FastAPI app setup
+# FastAPI app setup and lifespan management
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    """
+    Manages the application's lifespan events.
+    On startup, it launches the scraper in a background thread.
+    """
+    logger.info("Application startup: Starting the background scraper task...")
+    scraper_thread = threading.Thread(target=scrape_all_news_sources, daemon=True)
+    scraper_thread.start()
+    yield
+    # On shutdown
+    logger.info("Application shutting down.")
+
+
 app = FastAPI(
     title="NovaPress Scraper API",
     description="API for scraping and serving news articles",
     version="1.0.0",
+    lifespan=lifespan, # Attach the lifespan manager
 )
+
 
 # CORS middleware
 app.add_middleware(
@@ -968,12 +985,5 @@ async def get_recent_articles_debug():
     
     return result
 
-# This block ensures the scraper runs in a separate thread when the API starts
-if __name__ == "__main__":
-    logger.info("Starting NovaPress Scraper API...")
-    # Start the scraper in a separate thread
-    scraper_thread = threading.Thread(target=scrape_all_news_sources, daemon=True)
-    scraper_thread.start()
-    
-    # Start the FastAPI app (blocking call)
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+# The old __main__ block has been removed as it is no longer needed.
+# The server should be started via `run_all.py` which will use the uvicorn command.

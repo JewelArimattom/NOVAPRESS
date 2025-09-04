@@ -1791,3 +1791,512 @@ Stacktrace:
 2025-06-06 12:26:10,700 - WARNING - ⚠️ 'published_at' field is missing or invalid type for article 6842727dcb93be2e62fa5235: None. Using 'Unknown Date'.
 2025-06-06 12:26:36,503 - INFO - ✅ Found article in articles_india
 2025-06-06 12:26:36,789 - INFO - ✅ Found article in articles_india
+2025-09-04 22:22:24,630 - INFO - Use pytorch device_name: cpu
+2025-09-04 22:22:24,630 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-04 22:22:31,315 - INFO - ✅ AI models initialized successfully
+2025-09-04 22:22:32,695 - INFO - ✅ Successfully connected to MongoDB
+2025-09-04 22:22:32,708 - INFO - Starting NovaPress Scraper API...
+2025-09-04 22:22:32,710 - INFO - 🕒 Starting comprehensive scraping cycle...
+2025-09-04 22:22:32,715 - INFO - 📰 Submitting tasks for Indian Express
+2025-09-04 22:22:32,715 - INFO - Initiating scrape for Indian Express - India: https://indianexpress.com/section/india/
+2025-09-04 22:22:33,220 - INFO - Initiating scrape for Indian Express - World: https://indianexpress.com/section/world/
+2025-09-04 22:22:33,722 - INFO - Initiating scrape for Indian Express - Sports: https://indianexpress.com/section/sports/
+2025-09-04 22:22:34,226 - INFO - Initiating scrape for Indian Express - Entertainment: https://indianexpress.com/section/entertainment/
+2025-09-04 22:22:34,728 - INFO - Initiating scrape for Indian Express - Technology: https://indianexpress.com/section/technology/
+2025-09-04 22:22:35,230 - INFO - Initiating scrape for Indian Express - Health: https://indianexpress.com/section/lifestyle/health/
+2025-09-04 22:22:36,234 - INFO - 📰 Submitting tasks for Times of India
+2025-09-04 22:22:38,213 - INFO - Found 50 article candidates on list page for Indian Express - India
+2025-09-04 22:22:38,278 - INFO - Processing article: '...' from Indian Express
+2025-09-04 22:22:39,200 - WARNING - ⚠️ No article blocks found for Indian Express - World on https://indianexpress.com/section/world/
+2025-09-04 22:22:39,202 - INFO - Initiating scrape for Indian Express - Science: https://indianexpress.com/section/explained/science/
+2025-09-04 22:22:39,758 - INFO - 📰 Submitting tasks for Hindustan Times
+2025-09-04 22:22:39,960 - INFO - Found 50 article candidates on list page for Indian Express - Health
+2025-09-04 22:22:40,001 - INFO - Processing article: '...' from Indian Express
+2025-09-04 22:22:40,622 - WARNING - ⚠️ No article blocks found for Indian Express - Entertainment on https://indianexpress.com/section/entertainment/
+2025-09-04 22:22:40,627 - INFO - Initiating scrape for Times of India - India: https://timesofindia.indiatimes.com/india
+2025-09-04 22:22:44,197 - INFO - Found 50 article candidates on list page for Indian Express - Science
+2025-09-04 22:22:44,233 - INFO - Processing article: '...' from Indian Express
+2025-09-04 22:22:44,647 - WARNING - ⚠️ No article blocks found for Indian Express - Technology on https://indianexpress.com/section/technology/
+2025-09-04 22:22:44,680 - INFO - Initiating scrape for Times of India - World: https://timesofindia.indiatimes.com/world
+2025-09-04 22:22:44,746 - INFO - Found 1 article candidates on list page for Times of India - India
+2025-09-04 22:22:44,810 - INFO - Processing article: ''Collecting taxes from common people ...': Kharge'...' from Times of India
+2025-09-04 22:22:44,827 - INFO - Found 50 article candidates on list page for Indian Express - Sports
+2025-09-04 22:22:44,868 - INFO - Processing article: '...' from Indian Express
+2025-09-04 22:22:51,472 - WARNING - ⚠️ No article blocks found for Times of India - World on https://timesofindia.indiatimes.com/world
+2025-09-04 22:22:51,480 - INFO - Initiating scrape for Times of India - Sports: https://timesofindia.indiatimes.com/sports
+2025-09-04 22:22:59,494 - INFO - Found 14 article candidates on list page for Times of India - Sports
+2025-09-04 22:22:59,528 - INFO - Processing article: '‘Mumbaicha Raja kaun? Rohit Sharma!’: Fans go bers...' from Times of India
+2025-09-04 22:26:30,645 - INFO - ✅ Fetched with Selenium for https://indianexpress.com/article/india/issuance-notice-hc-issues-contempt-notice-three-assam-officials-over-july-eviction-drive-10230646/
+2025-09-04 22:26:34,847 - INFO - ✅ Fetched with Selenium for https://indianexpress.com/article/lifestyle/health/gynaecologist-early-stages-breastfeeding-ileana-dcruz-intensely-painful-10223991/
+2025-09-04 22:26:37,588 - INFO - ✅ Fetched with Selenium for https://indianexpress.com/article/sports/cricket/yastika-bhatia-injured-out-of-womens-world-cup-uma-chetry-10230733/
+2025-09-04 22:27:54,567 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/02b0381e2e322385248cc3f0620d8eef
+2025-09-04 22:27:54,570 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/ff255848ff42acfca4f83fa00d70908e/source
+2025-09-04 22:27:56,590 - INFO - ✅ Saved new article: Gynaecologist on managing the early stages of brea... with ID 68b9c514d8264c30dcdd9d61
+2025-09-04 22:27:58,608 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C968051970>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/02b0381e2e322385248cc3f0620d8eef
+2025-09-04 22:27:58,608 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C95AA07380>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ff255848ff42acfca4f83fa00d70908e/source
+2025-09-04 22:27:59,740 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/india/collecting-taxes-from-common-people-kharges-one-nation-9-taxes-jibe-at-centre-over-gst-revamp-questions-delay/articleshow/123692368.cms
+2025-09-04 22:27:59,854 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:27:59,979 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/india/collecting-taxes-from-common-people-kharges-one-nation-9-taxes-jibe-at-centre-over-gst-revamp-questions-delay/articleshow/123692368.cms. Will use fallback.
+2025-09-04 22:27:59,979 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/india/collecting-taxes-from-common-people-kharges-one-nation-9-taxes-jibe-at-centre-over-gst-revamp-questions-delay/articleshow/123692368.cms. Skipping AI summarization/tagging.
+2025-09-04 22:28:01,036 - INFO - Processing article: '...' from Indian Express
+2025-09-04 22:28:01,323 - INFO - Initiating scrape for Times of India - Entertainment: https://timesofindia.indiatimes.com/entertainment
+2025-09-04 22:28:01,948 - INFO - ✅ Saved new article: India’s Yastika Bhatia ruled out of Women’s World ... with ID 68b9c517d8264c30dcdd9d62
+2025-09-04 22:28:02,054 - INFO - Processing article: 'Issuance of notice: HC issues contempt notice to t...' from Indian Express
+2025-09-04 22:28:02,054 - INFO - ✅ Saved new article: 'Collecting taxes from common people ...': Kharge'... with ID 68b9c519d8264c30dcdd9d63
+2025-09-04 22:28:02,674 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C977452840>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ff255848ff42acfca4f83fa00d70908e/source
+2025-09-04 22:28:02,674 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C977453A70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/02b0381e2e322385248cc3f0620d8eef
+2025-09-04 22:28:02,765 - INFO - Processing article: '...' from Indian Express
+2025-09-04 22:28:02,770 - INFO - ✅ Saved new article: Issuance of notice: HC issues contempt notice to t... with ID 68b9c51ad8264c30dcdd9d64
+2025-09-04 22:28:02,880 - INFO - 🗑️ Deleted oldest article from articles_sports and base collection.
+2025-09-04 22:28:06,729 - ERROR - ❌ An unexpected error occurred in Selenium for https://indianexpress.com/article/technology/science/chaos-to-order-how-standard-model-tamed-the-particle-zoo-10228120/: HTTPConnectionPool(host='localhost', port=64290): Max retries exceeded with url: /session/ff255848ff42acfca4f83fa00d70908e/source (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C96F5EE060>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-09-04 22:28:07,218 - WARNING - ⚠️ No article blocks found for Times of India - Entertainment on https://timesofindia.indiatimes.com/entertainment
+2025-09-04 22:28:07,218 - INFO - Initiating scrape for Times of India - Technology: https://timesofindia.indiatimes.com/business/tech
+2025-09-04 22:28:10,776 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C96F5EF110>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ff255848ff42acfca4f83fa00d70908e
+2025-09-04 22:28:15,138 - ERROR - ❌ Failed to fetch Times of India Technology page https://timesofindia.indiatimes.com/business/tech: 404 Client Error: Not Found for url: https://timesofindia.indiatimes.com/business/tech
+2025-09-04 22:28:15,138 - INFO - Initiating scrape for Times of India - Health: https://timesofindia.indiatimes.com/life-style/health-fitness
+2025-09-04 22:28:15,785 - ERROR - ❌ An unexpected error occurred in Selenium for https://indianexpress.com/article/sports/cricket/ruturaj-gaikwad-duleep-trophy-red-ball-game-injury-layoff-10230668/: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-09-04 22:28:15,802 - ERROR - ❌ An unexpected error occurred in Selenium for https://indianexpress.com/article/lifestyle/health/my-blood-sugar-91-mg-dl-bedtime-jumps-182-mg-dl-morning-why-expert-10175674/: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-09-04 22:28:15,804 - ERROR - ❌ An unexpected error occurred in Selenium for https://indianexpress.com/article/india/issuance-notice-hc-issues-contempt-notice-three-assam-officials-over-july-eviction-drive-10230646/: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-09-04 22:28:15,898 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C96D2B1100>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ff255848ff42acfca4f83fa00d70908e
+2025-09-04 22:28:16,072 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/sports/cricket/news/mumbaicha-raja-kaun-rohit-sharma-fans-go-berserk-for-indias-odi-captain-watch/articleshow/123702884.cms
+2025-09-04 22:28:16,179 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:28:16,270 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/sports/cricket/news/mumbaicha-raja-kaun-rohit-sharma-fans-go-berserk-for-indias-odi-captain-watch/articleshow/123702884.cms. Will use fallback.
+2025-09-04 22:28:16,270 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/sports/cricket/news/mumbaicha-raja-kaun-rohit-sharma-fans-go-berserk-for-indias-odi-captain-watch/articleshow/123702884.cms. Skipping AI summarization/tagging.
+2025-09-04 22:28:16,408 - INFO - ✅ Saved new article: ‘Mumbaicha Raja kaun? Rohit Sharma!’: Fans go bers... with ID 68b9c528d8264c30dcdd9d65
+2025-09-04 22:28:16,592 - INFO - 🗑️ Deleted oldest article from articles_sports and base collection.
+2025-09-04 22:28:17,425 - INFO - Processing article: 'Liverpool trophy parade chaos: Accused pleads not ...' from Times of India
+2025-09-04 22:28:19,824 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C96F5ED9A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/5bd189910975df8c12d38878cc5f4f4d
+2025-09-04 22:28:19,840 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C95D9A4D70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bae1344d86ebcef9882f7c31a3394e8b
+2025-09-04 22:28:19,840 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C96D2B19A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c60a5626cd982db0b9c3c910b6d80672
+2025-09-04 22:28:20,006 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C95EE19430>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ff255848ff42acfca4f83fa00d70908e
+2025-09-04 22:28:23,744 - WARNING - ⚠️ No article blocks found for Times of India - Health on https://timesofindia.indiatimes.com/life-style/health-fitness
+2025-09-04 22:28:23,744 - INFO - Initiating scrape for Times of India - Science: https://timesofindia.indiatimes.com/home/science
+2025-09-04 22:28:23,857 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C95EF186E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/5bd189910975df8c12d38878cc5f4f4d
+2025-09-04 22:28:23,898 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C95EF18230>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bae1344d86ebcef9882f7c31a3394e8b
+2025-09-04 22:28:23,898 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C95EF18140>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c60a5626cd982db0b9c3c910b6d80672
+2025-09-04 22:28:27,884 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C95EF02C30>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/5bd189910975df8c12d38878cc5f4f4d
+2025-09-04 22:28:27,941 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C95EF03500>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bae1344d86ebcef9882f7c31a3394e8b
+2025-09-04 22:28:27,941 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C95EF02BD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c60a5626cd982db0b9c3c910b6d80672
+2025-09-04 22:28:32,128 - INFO - Found 51 article candidates on list page for Times of India - Science
+2025-09-04 22:28:32,166 - INFO - Processing article: 'NASA and Hubble reveal IRAS 04302, the Butterfly S...' from Times of India
+2025-09-04 22:28:32,702 - INFO - ✅ Fetched with requests for https://indianexpress.com/article/technology/science/chaos-to-order-how-standard-model-tamed-the-particle-zoo-10228120/
+2025-09-04 22:28:32,751 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:28:32,754 - WARNING - ⚠️ Full content extraction failed or too short for https://indianexpress.com/article/technology/science/chaos-to-order-how-standard-model-tamed-the-particle-zoo-10228120/. Skipping AI summarization/tagging.
+2025-09-04 22:28:33,052 - INFO - ✅ Saved new article: Building blocks of our Universe: How scientists ta... with ID 68b9c538d8264c30dcdd9d66
+2025-09-04 22:28:34,277 - INFO - Processing article: '...' from Indian Express
+2025-09-04 22:28:40,712 - INFO - ✅ Fetched with requests for https://indianexpress.com/article/sports/cricket/ruturaj-gaikwad-duleep-trophy-red-ball-game-injury-layoff-10230668/
+2025-09-04 22:28:40,761 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:28:40,761 - WARNING - ⚠️ Full content extraction failed or too short for https://indianexpress.com/article/sports/cricket/ruturaj-gaikwad-duleep-trophy-red-ball-game-injury-layoff-10230668/. Skipping AI summarization/tagging.
+2025-09-04 22:28:40,893 - INFO - ✅ Saved new article: I’ve worked on my red-ball game during injury lay-... with ID 68b9c540d8264c30dcdd9d67
+2025-09-04 22:28:41,064 - INFO - 🗑️ Deleted oldest article from articles_sports and base collection.
+2025-09-04 22:28:41,160 - INFO - ✅ Fetched with requests for https://indianexpress.com/article/lifestyle/health/my-blood-sugar-91-mg-dl-bedtime-jumps-182-mg-dl-morning-why-expert-10175674/
+2025-09-04 22:28:41,562 - INFO - Processing article: '...' from Indian Express
+2025-09-04 22:28:54,011 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/sports/football/top-stories/liverpool-trophy-parade-chaos-accused-pleads-not-guilty-trial-to-happen-later-this-year/articleshow/123699321.cms
+2025-09-04 22:28:54,111 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:28:54,229 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/sports/football/top-stories/liverpool-trophy-parade-chaos-accused-pleads-not-guilty-trial-to-happen-later-this-year/articleshow/123699321.cms. Will use fallback.
+2025-09-04 22:28:54,231 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/sports/football/top-stories/liverpool-trophy-parade-chaos-accused-pleads-not-guilty-trial-to-happen-later-this-year/articleshow/123699321.cms. Skipping AI summarization/tagging.
+2025-09-04 22:28:54,374 - INFO - ✅ Saved new article: Liverpool trophy parade chaos: Accused pleads not ... with ID 68b9c54ed8264c30dcdd9d68
+2025-09-04 22:28:54,550 - INFO - 🗑️ Deleted oldest article from articles_sports and base collection.
+2025-09-04 22:28:56,151 - INFO - Processing article: 'Norman Nato shares July dump from Formula E and En...' from Times of India
+2025-09-04 22:28:58,013 - WARNING - ⚠️ Requests failed for https://indianexpress.com/article/india/issuance-notice-hc-issues-contempt-notice-three-assam-officials-over-july-eviction-drive-10230646/: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-09-04 22:28:58,014 - WARNING - ⚠️ Full content extraction failed or too short for https://indianexpress.com/article/india/issuance-notice-hc-issues-contempt-notice-three-assam-officials-over-july-eviction-drive-10230646/. Skipping AI summarization/tagging.
+2025-09-04 22:28:58,174 - INFO - 🔄 Updated existing article: Issuance of notice: HC issues contempt notice to t... (1 docs modified)
+2025-09-04 22:28:58,713 - INFO - Processing article: '...' from Indian Express
+2025-09-04 22:29:16,527 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/science/nasa-and-hubble-reveal-iras-04302-the-butterfly-star-understanding-how-new-stars-and-planets-develop-watch-video/articleshow/123697162.cms
+2025-09-04 22:29:16,610 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:29:16,713 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/science/nasa-and-hubble-reveal-iras-04302-the-butterfly-star-understanding-how-new-stars-and-planets-develop-watch-video/articleshow/123697162.cms. Will use fallback.
+2025-09-04 22:29:16,713 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/science/nasa-and-hubble-reveal-iras-04302-the-butterfly-star-understanding-how-new-stars-and-planets-develop-watch-video/articleshow/123697162.cms. Skipping AI summarization/tagging.
+2025-09-04 22:29:17,568 - INFO - ✅ Saved new article: NASA and Hubble reveal IRAS 04302, the Butterfly S... with ID 68b9c565d8264c30dcdd9d69
+2025-09-04 22:29:18,585 - INFO - Processing article: 'NASA shares alarming map of US sinking cities: Mil...' from Times of India
+2025-09-04 22:29:18,861 - INFO - ✅ Fetched with Selenium for https://indianexpress.com/article/technology/science/just-one-minute-of-vigorous-activity-a-day-can-cut-death-risk-10227997/
+2025-09-04 22:29:31,803 - INFO - ✅ Saved new article: ‘My blood sugar was 91 mg/dL at bedtime but jumped... with ID 68b9c573d8264c30dcdd9d6a
+2025-09-04 22:29:33,120 - INFO - Processing article: '...' from Indian Express
+2025-09-04 22:29:38,391 - INFO - ✅ Fetched with Selenium for https://indianexpress.com/article/india/20-ulbs-lack-sewerage-facilities-7-have-inadequate-ones-stps-towns-handling-sewage-10230680/
+2025-09-04 22:29:38,581 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/sports/formula-e/norman-nato-shares-july-dump-from-formula-e-and-endurance-championship-but-his-daughter-steals-the-show/articleshow/123124362.cms
+2025-09-04 22:29:38,710 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:29:38,853 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/sports/formula-e/norman-nato-shares-july-dump-from-formula-e-and-endurance-championship-but-his-daughter-steals-the-show/articleshow/123124362.cms. Will use fallback.
+2025-09-04 22:29:38,858 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/sports/formula-e/norman-nato-shares-july-dump-from-formula-e-and-endurance-championship-but-his-daughter-steals-the-show/articleshow/123124362.cms. Skipping AI summarization/tagging.
+2025-09-04 22:29:38,991 - INFO - ✅ Saved new article: Norman Nato shares July dump from Formula E and En... with ID 68b9c57ad8264c30dcdd9d6b
+2025-09-04 22:29:39,165 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/science/nasa-shares-alarming-map-of-us-sinking-cities-millions-at-risk-urgent-action-needed/articleshow/123696738.cms
+2025-09-04 22:29:39,275 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:29:39,388 - INFO - 🗑️ Deleted oldest article from articles_sports and base collection.
+2025-09-04 22:29:39,403 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/science/nasa-shares-alarming-map-of-us-sinking-cities-millions-at-risk-urgent-action-needed/articleshow/123696738.cms. Will use fallback.
+2025-09-04 22:29:39,403 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/science/nasa-shares-alarming-map-of-us-sinking-cities-millions-at-risk-urgent-action-needed/articleshow/123696738.cms. Skipping AI summarization/tagging.
+2025-09-04 22:29:39,561 - INFO - ✅ Saved new article: NASA shares alarming map of US sinking cities: Mil... with ID 68b9c57bd8264c30dcdd9d6c
+2025-09-04 22:29:40,568 - INFO - Processing article: 'What happens when Earth stops spinning: Science ex...' from Times of India
+2025-09-04 22:29:40,568 - INFO - Processing article: 'US Open | 'Sweeter with a friend': Yuki Bhambri on...' from Times of India
+2025-09-04 22:29:46,629 - INFO - ✅ Fetched with Selenium for https://indianexpress.com/article/sports/cricket/duleep-trophy-semifinal-ruturaj-gaikwad-n-jagadeesan-centuries-10230690/
+2025-09-04 22:29:46,933 - WARNING - ⚠️ AI summary generation failed for https://indianexpress.com/article/sports/cricket/duleep-trophy-semifinal-ruturaj-gaikwad-n-jagadeesan-centuries-10230690/: index out of range in self. Using best available.
+2025-09-04 22:29:53,470 - INFO - ✅ Saved new article: Duleep Trophy semifinal, Day 1: West Zone’s Rutura... with ID 68b9c589d8264c30dcdd9d6d
+2025-09-04 22:29:53,623 - INFO - 🗑️ Deleted oldest article from articles_sports and base collection.
+2025-09-04 22:29:53,989 - ERROR - ❌ An unexpected error occurred in Selenium for https://timesofindia.indiatimes.com/science/what-happens-when-earth-stops-spinning-science-explains/articleshow/123696087.cms: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-09-04 22:29:53,991 - ERROR - ❌ An unexpected error occurred in Selenium for https://indianexpress.com/article/lifestyle/health/raj-kundra-donating-kidney-to-maharaj-premanand-dialysis-2-failed-kidneys-10227176/: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-09-04 22:29:54,000 - ERROR - ❌ An unexpected error occurred in Selenium for https://timesofindia.indiatimes.com/sports/tennis/us-open/sweeter-with-a-friend-yuki-bhambri-on-making-first-slam-semifinal-with-michael-venus/articleshow/123701567.cms: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-09-04 22:29:54,539 - INFO - Processing article: '...' from Indian Express
+2025-09-04 22:29:58,054 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C9714DB0E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/a7fb8a36975d65e053e4f9f23f1b7bc4
+2025-09-04 22:29:58,054 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C9714DB500>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/558ad5ca3d1485cd4f7d72b6535c3061
+2025-09-04 22:29:58,054 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C971BF7A10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/a8677118cfcd2f944deb844b5c428fc3
+2025-09-04 22:30:02,098 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C971CA6DE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/a8677118cfcd2f944deb844b5c428fc3
+2025-09-04 22:30:02,099 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C971CA61B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/a7fb8a36975d65e053e4f9f23f1b7bc4
+2025-09-04 22:30:02,099 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C971CA76B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/558ad5ca3d1485cd4f7d72b6535c3061
+2025-09-04 22:30:06,171 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C971CA5940>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/a7fb8a36975d65e053e4f9f23f1b7bc4
+2025-09-04 22:30:06,172 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C971CA6600>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/558ad5ca3d1485cd4f7d72b6535c3061
+2025-09-04 22:30:06,172 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C971CA6660>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/a8677118cfcd2f944deb844b5c428fc3
+2025-09-04 22:31:24,683 - INFO - Use pytorch device_name: cpu
+2025-09-04 22:31:24,683 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-04 22:31:30,904 - INFO - ✅ AI models initialized successfully
+2025-09-04 22:31:31,566 - INFO - ✅ Successfully connected to MongoDB
+2025-09-04 22:31:31,574 - INFO - Starting NovaPress Scraper API...
+2025-09-04 22:31:31,574 - INFO - 🕒 Starting comprehensive scraping cycle...
+2025-09-04 22:31:31,634 - INFO - 📰 Submitting tasks for Indian Express
+2025-09-04 22:31:31,634 - INFO - Initiating scrape for Indian Express - India: https://indianexpress.com/section/india/
+2025-09-04 22:31:32,139 - INFO - Initiating scrape for Indian Express - World: https://indianexpress.com/section/world/
+2025-09-04 22:31:32,640 - INFO - Initiating scrape for Indian Express - Sports: https://indianexpress.com/section/sports/
+2025-09-04 22:31:33,141 - INFO - Initiating scrape for Indian Express - Entertainment: https://indianexpress.com/section/entertainment/
+2025-09-04 22:31:33,644 - INFO - Initiating scrape for Indian Express - Technology: https://indianexpress.com/section/technology/
+2025-09-04 22:31:34,145 - INFO - Initiating scrape for Indian Express - Health: https://indianexpress.com/section/lifestyle/health/
+2025-09-04 22:31:35,147 - INFO - 📰 Submitting tasks for Times of India
+2025-09-04 22:31:38,654 - INFO - 📰 Submitting tasks for Hindustan Times
+2025-09-04 22:31:38,907 - INFO - Found 50 article candidates on list page for Indian Express - India
+2025-09-04 22:31:39,063 - INFO - Processing article: '...' from Indian Express
+2025-09-04 22:31:40,440 - WARNING - ⚠️ No article blocks found for Indian Express - Technology on https://indianexpress.com/section/technology/
+2025-09-04 22:31:40,440 - INFO - Initiating scrape for Indian Express - Science: https://indianexpress.com/section/explained/science/
+2025-09-04 22:31:40,844 - WARNING - ⚠️ No article blocks found for Indian Express - World on https://indianexpress.com/section/world/
+2025-09-04 22:31:40,844 - INFO - Initiating scrape for Times of India - India: https://timesofindia.indiatimes.com/india
+2025-09-04 22:31:41,438 - INFO - Found 50 article candidates on list page for Indian Express - Sports
+2025-09-04 22:31:41,781 - INFO - Processing article: '...' from Indian Express
+2025-09-04 22:31:44,900 - INFO - Found 50 article candidates on list page for Indian Express - Health
+2025-09-04 22:31:44,957 - INFO - Processing article: '...' from Indian Express
+2025-09-04 22:31:45,115 - WARNING - ⚠️ No article blocks found for Indian Express - Entertainment on https://indianexpress.com/section/entertainment/
+2025-09-04 22:31:45,115 - INFO - Initiating scrape for Times of India - World: https://timesofindia.indiatimes.com/world
+2025-09-04 22:31:46,787 - INFO - Found 50 article candidates on list page for Indian Express - Science
+2025-09-04 22:31:46,917 - INFO - Processing article: '...' from Indian Express
+2025-09-04 22:31:47,180 - INFO - Found 1 article candidates on list page for Times of India - India
+2025-09-04 22:31:47,240 - INFO - Initiating scrape for Times of India - Sports: https://timesofindia.indiatimes.com/sports
+2025-09-04 22:31:49,192 - INFO - Found 9 article candidates on list page for Times of India - World
+2025-09-04 22:31:49,239 - INFO - Processing article: 'Meme Sahib: Trump laughs away Chinese humiliation ...' from Times of India
+2025-09-04 22:31:55,335 - INFO - Found 14 article candidates on list page for Times of India - Sports
+2025-09-04 22:31:55,374 - INFO - Processing article: 'World record! South Africa's Matthew Breetzke crea...' from Times of India
+2025-09-04 22:32:01,373 - INFO - ✅ Fetched with Selenium for https://indianexpress.com/article/india/20-ulbs-lack-sewerage-facilities-7-have-inadequate-ones-stps-towns-handling-sewage-10230680/
+2025-09-04 22:32:25,316 - INFO - ✅ Fetched with Selenium for https://indianexpress.com/article/technology/science/just-one-minute-of-vigorous-activity-a-day-can-cut-death-risk-10227997/
+2025-09-04 22:32:26,599 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/world/us/meme-sahib-trump-laughs-away-chinese-humiliation-as-critics-unload-on-flippant-president/articleshow/123702818.cms
+2025-09-04 22:32:26,748 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:32:26,919 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/world/us/meme-sahib-trump-laughs-away-chinese-humiliation-as-critics-unload-on-flippant-president/articleshow/123702818.cms. Will use fallback.
+2025-09-04 22:32:26,921 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/world/us/meme-sahib-trump-laughs-away-chinese-humiliation-as-critics-unload-on-flippant-president/articleshow/123702818.cms. Skipping AI summarization/tagging.
+2025-09-04 22:32:27,104 - INFO - ✅ Saved new article: Meme Sahib: Trump laughs away Chinese humiliation ... with ID 68b9c62243644e3755f899b3
+2025-09-04 22:32:28,157 - INFO - Processing article: 'IuM-Pakistan claims suicide bomb attack on army co...' from Times of India
+2025-09-04 22:32:57,336 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/sports/cricket/news/world-record-south-africas-matthew-breetzke-creates-history-becomes-first-ever-batter-to-/articleshow/123703258.cms
+2025-09-04 22:32:57,370 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/world/pakistan/ium-pakistan-claims-suicide-bomb-attack-on-army-convoy-in-kp/articleshow/123688414.cms
+2025-09-04 22:32:57,508 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:32:57,644 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:32:57,746 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/sports/cricket/news/world-record-south-africas-matthew-breetzke-creates-history-becomes-first-ever-batter-to-/articleshow/123703258.cms. Will use fallback.
+2025-09-04 22:32:57,806 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/sports/cricket/news/world-record-south-africas-matthew-breetzke-creates-history-becomes-first-ever-batter-to-/articleshow/123703258.cms. Skipping AI summarization/tagging.
+2025-09-04 22:32:57,846 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/world/pakistan/ium-pakistan-claims-suicide-bomb-attack-on-army-convoy-in-kp/articleshow/123688414.cms. Will use fallback.
+2025-09-04 22:32:57,848 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/world/pakistan/ium-pakistan-claims-suicide-bomb-attack-on-army-convoy-in-kp/articleshow/123688414.cms. Skipping AI summarization/tagging.
+2025-09-04 22:32:58,016 - INFO - ✅ Saved new article: World record! South Africa's Matthew Breetzke crea... with ID 68b9c64143644e3755f899b4
+2025-09-04 22:32:58,256 - INFO - 🗑️ Deleted oldest article from articles_sports and base collection.
+2025-09-04 22:32:58,559 - INFO - ✅ Saved new article: IuM-Pakistan claims suicide bomb attack on army co... with ID 68b9c64243644e3755f899b5
+2025-09-04 22:32:59,508 - INFO - Processing article: 'Nepal bans X, Insta & FB: Action after SC order; '...' from Times of India
+2025-09-04 22:32:59,522 - INFO - Processing article: 'US Open | 'Sweeter with a friend': Yuki Bhambri on...' from Times of India
+2025-09-04 22:33:03,935 - INFO - ✅ Saved new article: 20 ULBs lack sewerage facilities, 7 have inadequat... with ID 68b9c64743644e3755f899b6
+2025-09-04 22:33:05,609 - INFO - Processing article: '...' from Indian Express
+2025-09-04 22:33:17,567 - INFO - ✅ Saved new article: Just one minute of vigorous activity a day can cut... with ID 68b9c65543644e3755f899b7
+2025-09-04 22:33:19,016 - INFO - Processing article: '...' from Indian Express
+2025-09-04 22:33:32,668 - INFO - ✅ Fetched with Selenium for https://indianexpress.com/article/sports/football/india-toothless-afghanistan-football-cafa-cup-goalless-draw-10230673/
+2025-09-04 22:33:43,175 - INFO - ✅ Fetched with Selenium for https://indianexpress.com/article/india/mehbooba-mufti-visits-flood-hit-in-jammu-kashmir-centre-handing-10230630/
+2025-09-04 22:33:43,328 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/world/south-asia/nepal-bans-x-insta-fb-action-after-sc-order-non-compliance-cited-as-reason/articleshow/123700622.cms
+2025-09-04 22:33:43,438 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:33:43,601 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/world/south-asia/nepal-bans-x-insta-fb-action-after-sc-order-non-compliance-cited-as-reason/articleshow/123700622.cms. Will use fallback.
+2025-09-04 22:33:43,603 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/world/south-asia/nepal-bans-x-insta-fb-action-after-sc-order-non-compliance-cited-as-reason/articleshow/123700622.cms. Skipping AI summarization/tagging.
+2025-09-04 22:33:43,717 - INFO - ✅ Saved new article: Nepal bans X, Insta & FB: Action after SC order; '... with ID 68b9c66f43644e3755f899b8
+2025-09-04 22:33:45,419 - INFO - Processing article: 'London or Kanpur? Viral video shows gutka spit sta...' from Times of India
+2025-09-04 22:33:54,468 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/sports/tennis/us-open/sweeter-with-a-friend-yuki-bhambri-on-making-first-slam-semifinal-with-michael-venus/articleshow/123701567.cms
+2025-09-04 22:33:54,616 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:33:54,804 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/sports/tennis/us-open/sweeter-with-a-friend-yuki-bhambri-on-making-first-slam-semifinal-with-michael-venus/articleshow/123701567.cms. Will use fallback.
+2025-09-04 22:33:54,804 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/sports/tennis/us-open/sweeter-with-a-friend-yuki-bhambri-on-making-first-slam-semifinal-with-michael-venus/articleshow/123701567.cms. Skipping AI summarization/tagging.
+2025-09-04 22:33:54,913 - INFO - ✅ Saved new article: US Open | 'Sweeter with a friend': Yuki Bhambri on... with ID 68b9c67a43644e3755f899b9
+2025-09-04 22:33:55,058 - INFO - 🗑️ Deleted oldest article from articles_sports and base collection.
+2025-09-04 22:33:56,571 - INFO - Processing article: 'New Delhi to host next Badminton World Championshi...' from Times of India
+2025-09-04 22:34:18,718 - INFO - ✅ Fetched with Selenium for https://indianexpress.com/article/technology/science/astronomers-capture-image-of-a-planet-actively-forming-in-a-protoplanetary-disc-10218819/
+2025-09-04 22:34:32,779 - INFO - ✅ Saved new article: CAFA Cup football: Toothless India fails to pose a... with ID 68b9c6a043644e3755f899ba
+2025-09-04 22:34:32,929 - INFO - 🗑️ Deleted oldest article from articles_sports and base collection.
+2025-09-04 22:34:33,736 - INFO - Processing article: '...' from Indian Express
+2025-09-04 22:34:46,185 - INFO - ✅ Saved new article: Mufti visits flood-hit areas in Jammu, says Centre... with ID 68b9c6ae43644e3755f899bb
+2025-09-04 22:34:46,311 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/world/uk/london-or-kanpur-viral-video-shows-gutka-spit-stains-on-uk-roads-watch/articleshow/123695818.cms
+2025-09-04 22:34:46,418 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:34:46,537 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/world/uk/london-or-kanpur-viral-video-shows-gutka-spit-stains-on-uk-roads-watch/articleshow/123695818.cms. Will use fallback.
+2025-09-04 22:34:46,539 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/world/uk/london-or-kanpur-viral-video-shows-gutka-spit-stains-on-uk-roads-watch/articleshow/123695818.cms. Skipping AI summarization/tagging.
+2025-09-04 22:34:46,659 - INFO - ✅ Saved new article: London or Kanpur? Viral video shows gutka spit sta... with ID 68b9c6ae43644e3755f899bc
+2025-09-04 22:34:46,889 - INFO - Processing article: '...' from Indian Express
+2025-09-04 22:34:48,098 - INFO - Processing article: 'Portuguese investigators search for cause of Lisbo...' from Times of India
+2025-09-04 22:34:49,014 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/sports/badminton/new-delhi-to-host-next-badminton-world-championships-in-august-2026/articleshow/123638131.cms
+2025-09-04 22:34:49,135 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:34:49,289 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/sports/badminton/new-delhi-to-host-next-badminton-world-championships-in-august-2026/articleshow/123638131.cms. Will use fallback.
+2025-09-04 22:34:49,289 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/sports/badminton/new-delhi-to-host-next-badminton-world-championships-in-august-2026/articleshow/123638131.cms. Skipping AI summarization/tagging.
+2025-09-04 22:34:49,433 - INFO - ✅ Saved new article: New Delhi to host next Badminton World Championshi... with ID 68b9c6b143644e3755f899bd
+2025-09-04 22:34:49,601 - INFO - 🗑️ Deleted oldest article from articles_sports and base collection.
+2025-09-04 22:34:50,166 - INFO - Processing article: 'Will Jalen Carter play tonight against the Dallas ...' from Times of India
+2025-09-04 22:35:06,080 - INFO - ✅ Saved new article: Astronomers capture image of a planet actively for... with ID 68b9c6c243644e3755f899be
+2025-09-04 22:35:07,313 - INFO - Processing article: '...' from Indian Express
+2025-09-04 22:35:26,146 - INFO - ✅ Fetched with Selenium for https://indianexpress.com/article/india/opposition-mlas-arrive-on-tractors-rajasthan-assembly-session-10230461/
+2025-09-04 22:35:48,503 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/world/europe/portuguese-investigators-search-for-cause-of-lisbon-streetcar-crash-that-killed-16/articleshow/123703161.cms
+2025-09-04 22:35:48,636 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:35:48,794 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/world/europe/portuguese-investigators-search-for-cause-of-lisbon-streetcar-crash-that-killed-16/articleshow/123703161.cms. Will use fallback.
+2025-09-04 22:35:48,794 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/world/europe/portuguese-investigators-search-for-cause-of-lisbon-streetcar-crash-that-killed-16/articleshow/123703161.cms. Skipping AI summarization/tagging.
+2025-09-04 22:35:48,911 - INFO - ✅ Saved new article: Portuguese investigators search for cause of Lisbo... with ID 68b9c6ec43644e3755f899bf
+2025-09-04 22:35:49,265 - INFO - ✅ Fetched with Selenium for https://indianexpress.com/article/sports/cricket/asia-cup-2025-eye-on-pakistan-weakest-among-top-teams-10230652/
+2025-09-04 22:35:49,587 - INFO - Processing article: 'China-North Korea ties: Kim Jong Un to meet Xi Jin...' from Times of India
+2025-09-04 22:36:15,529 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/sports/nfl/news/will-jalen-carter-play-tonight-against-the-dallas-cowboys-latest-injury-update-on-the-philadelphia-eagles-defensive-star/articleshow/123698199.cms
+2025-09-04 22:36:15,670 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:36:15,838 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/sports/nfl/news/will-jalen-carter-play-tonight-against-the-dallas-cowboys-latest-injury-update-on-the-philadelphia-eagles-defensive-star/articleshow/123698199.cms. Will use fallback.
+2025-09-04 22:36:15,840 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/sports/nfl/news/will-jalen-carter-play-tonight-against-the-dallas-cowboys-latest-injury-update-on-the-philadelphia-eagles-defensive-star/articleshow/123698199.cms. Skipping AI summarization/tagging.
+2025-09-04 22:36:15,956 - INFO - ✅ Saved new article: Will Jalen Carter play tonight against the Dallas ... with ID 68b9c70743644e3755f899c0
+2025-09-04 22:36:16,141 - INFO - 🗑️ Deleted oldest article from articles_sports and base collection.
+2025-09-04 22:36:17,218 - INFO - Processing article: '“He didn't watch any of these”- Fans take a dig at...' from Times of India
+2025-09-04 22:36:19,825 - INFO - ✅ Saved new article: Opposition MLAs arrive driving tractors on dramati... with ID 68b9c70b43644e3755f899c1
+2025-09-04 22:36:20,639 - INFO - Processing article: '...' from Indian Express
+2025-09-04 22:36:48,395 - INFO - ✅ Saved new article: Asia Cup 2025: Pakistan, the weakest among top tea... with ID 68b9c72843644e3755f899c2
+2025-09-04 22:36:48,535 - INFO - 🗑️ Deleted oldest article from articles_sports and base collection.
+2025-09-04 22:36:49,298 - INFO - Processing article: '...' from Indian Express
+2025-09-04 22:36:51,819 - INFO - ✅ Fetched with Selenium for https://indianexpress.com/article/technology/science/total-lunar-eclipse-2025-all-you-need-to-know-about-the-upcoming-blood-moon-10216801/
+2025-09-04 22:36:52,930 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/world/china/china-north-korea-ties-kim-jong-un-to-meet-xi-jinping-beijing-denies-trump-conspiracy-claim/articleshow/123696109.cms
+2025-09-04 22:36:53,034 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:36:53,162 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/world/china/china-north-korea-ties-kim-jong-un-to-meet-xi-jinping-beijing-denies-trump-conspiracy-claim/articleshow/123696109.cms. Will use fallback.
+2025-09-04 22:36:53,162 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/world/china/china-north-korea-ties-kim-jong-un-to-meet-xi-jinping-beijing-denies-trump-conspiracy-claim/articleshow/123696109.cms. Skipping AI summarization/tagging.
+2025-09-04 22:36:53,273 - INFO - ✅ Saved new article: China-North Korea ties: Kim Jong Un to meet Xi Jin... with ID 68b9c72d43644e3755f899c3
+2025-09-04 22:36:54,207 - INFO - Processing article: 'Roblox blocks voice and in-game chat in Saudi Arab...' from Times of India
+2025-09-04 22:36:58,251 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/sports/nba/top-stories/he-didnt-watch-any-of-these-fans-take-a-dig-at-lebron-james-after-the-nba-legend-listed-his-favorite-movies/articleshow/123703032.cms
+2025-09-04 22:36:58,397 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:36:58,573 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/sports/nba/top-stories/he-didnt-watch-any-of-these-fans-take-a-dig-at-lebron-james-after-the-nba-legend-listed-his-favorite-movies/articleshow/123703032.cms. Will use fallback.
+2025-09-04 22:36:58,573 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/sports/nba/top-stories/he-didnt-watch-any-of-these-fans-take-a-dig-at-lebron-james-after-the-nba-legend-listed-his-favorite-movies/articleshow/123703032.cms. Skipping AI summarization/tagging.
+2025-09-04 22:36:58,692 - INFO - ✅ Saved new article: “He didn't watch any of these”- Fans take a dig at... with ID 68b9c73243644e3755f899c4
+2025-09-04 22:36:58,858 - INFO - 🗑️ Deleted oldest article from articles_sports and base collection.
+2025-09-04 22:36:59,772 - INFO - Processing article: '“You've got to earn your spot”: Matthew Schaefer a...' from Times of India
+2025-09-04 22:37:21,637 - INFO - ✅ Fetched with Selenium for https://indianexpress.com/article/india/gst2-0-double-dose-of-support-navratri-pm-modi-10230479/
+2025-09-04 22:37:29,899 - INFO - ✅ Saved new article: Total lunar eclipse 2025: All you need to know abo... with ID 68b9c75143644e3755f899c5
+2025-09-04 22:37:30,703 - INFO - Processing article: '...' from Indian Express
+2025-09-04 22:37:34,006 - INFO - ✅ Fetched with Selenium for https://indianexpress.com/article/sports/tennis/novak-djokovic-carlos-alcaraz-us-open-semifinal-physical-preview-10230610/
+2025-09-04 22:37:34,300 - WARNING - ⚠️ AI summary generation failed for https://indianexpress.com/article/sports/tennis/novak-djokovic-carlos-alcaraz-us-open-semifinal-physical-preview-10230610/: index out of range in self. Using best available.
+2025-09-04 22:37:36,659 - INFO - ✅ Saved new article: 2025 US Open: Novak Djokovic needs to raise his ga... with ID 68b9c75843644e3755f899c6
+2025-09-04 22:37:36,801 - INFO - 🗑️ Deleted oldest article from articles_sports and base collection.
+2025-09-04 22:37:38,026 - INFO - Processing article: '...' from Indian Express
+2025-09-04 22:37:53,893 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/world/middle-east/roblox-blocks-voice-and-in-game-chat-in-saudi-arabia-uae-to-protect-underage-players/articleshow/123696470.cms
+2025-09-04 22:37:54,019 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:37:54,171 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/world/middle-east/roblox-blocks-voice-and-in-game-chat-in-saudi-arabia-uae-to-protect-underage-players/articleshow/123696470.cms. Will use fallback.
+2025-09-04 22:37:54,171 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/world/middle-east/roblox-blocks-voice-and-in-game-chat-in-saudi-arabia-uae-to-protect-underage-players/articleshow/123696470.cms. Skipping AI summarization/tagging.
+2025-09-04 22:37:54,286 - INFO - ✅ Saved new article: Roblox blocks voice and in-game chat in Saudi Arab... with ID 68b9c76a43644e3755f899c7
+2025-09-04 22:37:55,588 - INFO - Processing article: 'Sudan rescuers pull 370 bodies from Darfur landsli...' from Times of India
+2025-09-04 22:38:00,740 - INFO - ✅ Saved new article: GST 2.0 double dose for growth; next generation re... with ID 68b9c77043644e3755f899c8
+2025-09-04 22:38:02,525 - INFO - Processing article: '...' from Indian Express
+2025-09-04 22:38:11,022 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/sports/nhl/news/youve-got-to-earn-your-spot-matthew-schaefer-aims-to-earn-a-spot-as-a-defenseman-for-the-islanders/articleshow/123703045.cms
+2025-09-04 22:38:11,152 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:38:11,340 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/sports/nhl/news/youve-got-to-earn-your-spot-matthew-schaefer-aims-to-earn-a-spot-as-a-defenseman-for-the-islanders/articleshow/123703045.cms. Will use fallback.
+2025-09-04 22:38:11,340 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/sports/nhl/news/youve-got-to-earn-your-spot-matthew-schaefer-aims-to-earn-a-spot-as-a-defenseman-for-the-islanders/articleshow/123703045.cms. Skipping AI summarization/tagging.
+2025-09-04 22:38:11,497 - INFO - ✅ Saved new article: “You've got to earn your spot”: Matthew Schaefer a... with ID 68b9c77b43644e3755f899c9
+2025-09-04 22:38:11,717 - INFO - 🗑️ Deleted oldest article from articles_sports and base collection.
+2025-09-04 22:38:12,000 - INFO - Processing article: 'No Man's Sky Corvette Expedition 19: All Phase 1 M...' from Times of India
+2025-09-04 22:38:20,348 - INFO - ✅ Fetched with Selenium for https://indianexpress.com/article/technology/science/science-heat-wave-ageing-human-body-study-10216306/
+2025-09-04 22:38:35,580 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/world/rest-of-world/sudan-rescuers-pull-370-bodies-from-darfur-landslide/articleshow/123703277.cms
+2025-09-04 22:38:35,705 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:38:35,855 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/world/rest-of-world/sudan-rescuers-pull-370-bodies-from-darfur-landslide/articleshow/123703277.cms. Will use fallback.
+2025-09-04 22:38:35,857 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/world/rest-of-world/sudan-rescuers-pull-370-bodies-from-darfur-landslide/articleshow/123703277.cms. Skipping AI summarization/tagging.
+2025-09-04 22:38:36,123 - INFO - ✅ Saved new article: Sudan rescuers pull 370 bodies from Darfur landsli... with ID 68b9c79443644e3755f899ca
+2025-09-04 22:38:36,703 - INFO - ✅ Fetched with Selenium for https://indianexpress.com/article/sports/cricket/pat-cummins-injury-uncertain-ashes-perth-test-aus-vs-eng-10230586/
+2025-09-04 22:38:37,289 - INFO - Processing article: 'Tariff fight in US Supreme Court: Trump mentions I...' from Times of India
+2025-09-04 22:38:58,958 - INFO - ✅ Saved new article: Can heat waves make you age faster? Scientists thi... with ID 68b9c7aa43644e3755f899cb
+2025-09-04 22:39:00,092 - INFO - Processing article: '...' from Indian Express
+2025-09-04 22:39:03,062 - INFO - ✅ Fetched with Selenium for https://indianexpress.com/article/india/if-you-allow-subordinate-workers-to-gang-up-uttarakhand-hc-calls-for-review-of-senior-forest-officers-transfer-10230449/
+2025-09-04 22:39:25,944 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/sports/esports/news/no-mans-sky-corvette-expedition-19-all-phase-1-milestone-missions-rewards-best-tips-and-tricks-and-more/articleshow/123694749.cms
+2025-09-04 22:39:26,068 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:39:26,235 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/sports/esports/news/no-mans-sky-corvette-expedition-19-all-phase-1-milestone-missions-rewards-best-tips-and-tricks-and-more/articleshow/123694749.cms. Will use fallback.
+2025-09-04 22:39:26,235 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/sports/esports/news/no-mans-sky-corvette-expedition-19-all-phase-1-milestone-missions-rewards-best-tips-and-tricks-and-more/articleshow/123694749.cms. Skipping AI summarization/tagging.
+2025-09-04 22:39:26,413 - INFO - ✅ Saved new article: No Man's Sky Corvette Expedition 19: All Phase 1 M... with ID 68b9c7c643644e3755f899cc
+2025-09-04 22:39:26,454 - INFO - ✅ Saved new article: Injured Pat Cummins says he is uncertain about pla... with ID 68b9c7c643644e3755f899cd
+2025-09-04 22:39:26,563 - INFO - 🗑️ Deleted oldest article from articles_sports and base collection.
+2025-09-04 22:39:26,599 - INFO - 🗑️ Deleted oldest article from articles_sports and base collection.
+2025-09-04 22:39:27,333 - INFO - Processing article: '...' from Indian Express
+2025-09-04 22:39:27,405 - INFO - Processing article: 'WWE legend reveals Vince McMahon is dating again—D...' from Times of India
+2025-09-04 22:39:46,252 - INFO - ✅ Saved new article: ‘If you allow subordinate workers to gang up…’: Ut... with ID 68b9c7da43644e3755f899ce
+2025-09-04 22:39:46,751 - INFO - Processing article: '...' from Indian Express
+2025-09-04 22:39:49,825 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/world/us/tariff-fight-in-us-supreme-court-trump-mentions-india-in-appeal-connects-it-to-ukraine-russia-war/articleshow/123696363.cms
+2025-09-04 22:39:49,914 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:39:50,020 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/world/us/tariff-fight-in-us-supreme-court-trump-mentions-india-in-appeal-connects-it-to-ukraine-russia-war/articleshow/123696363.cms. Will use fallback.
+2025-09-04 22:39:50,028 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/world/us/tariff-fight-in-us-supreme-court-trump-mentions-india-in-appeal-connects-it-to-ukraine-russia-war/articleshow/123696363.cms. Skipping AI summarization/tagging.
+2025-09-04 22:39:50,190 - INFO - ✅ Saved new article: Tariff fight in US Supreme Court: Trump mentions I... with ID 68b9c7de43644e3755f899cf
+2025-09-04 22:39:51,211 - INFO - Initiating scrape for Times of India - Entertainment: https://timesofindia.indiatimes.com/entertainment
+2025-09-04 22:39:58,111 - WARNING - ⚠️ No article blocks found for Times of India - Entertainment on https://timesofindia.indiatimes.com/entertainment
+2025-09-04 22:39:58,113 - INFO - Initiating scrape for Times of India - Technology: https://timesofindia.indiatimes.com/business/tech
+2025-09-04 22:40:01,158 - INFO - ✅ Fetched with Selenium for https://indianexpress.com/article/technology/science/why-nuclear-fusion-is-now-an-engineering-challenge-10214345/
+2025-09-04 22:40:01,316 - WARNING - ⚠️ AI summary generation failed for https://indianexpress.com/article/technology/science/why-nuclear-fusion-is-now-an-engineering-challenge-10214345/: index out of range in self. Using best available.
+2025-09-04 22:40:02,589 - INFO - ✅ Saved new article: Bottling the Sun: Why nuclear fusion is now an eng... with ID 68b9c7ea43644e3755f899d0
+2025-09-04 22:40:04,143 - INFO - Processing article: '...' from Indian Express
+2025-09-04 22:40:06,343 - INFO - ✅ Fetched with Selenium for https://indianexpress.com/article/sports/cricket/icc-womens-world-cup-ticket-prices-record-low-100-league-matches-10230504/
+2025-09-04 22:40:07,470 - ERROR - ❌ Failed to fetch Times of India Technology page https://timesofindia.indiatimes.com/business/tech: 404 Client Error: Not Found for url: https://timesofindia.indiatimes.com/business/tech
+2025-09-04 22:40:07,470 - INFO - Initiating scrape for Times of India - Health: https://timesofindia.indiatimes.com/life-style/health-fitness
+2025-09-04 22:40:13,296 - WARNING - ⚠️ No article blocks found for Times of India - Health on https://timesofindia.indiatimes.com/life-style/health-fitness
+2025-09-04 22:40:13,296 - INFO - Initiating scrape for Times of India - Science: https://timesofindia.indiatimes.com/home/science
+2025-09-04 22:40:21,265 - INFO - Found 51 article candidates on list page for Times of India - Science
+2025-09-04 22:40:21,323 - INFO - Processing article: 'The megaflood that brought the Mediterranean back ...' from Times of India
+2025-09-04 22:40:28,242 - INFO - ✅ Fetched with Selenium for https://indianexpress.com/article/india/congress-welcomes-gst-reforms-8-years-too-late-10230287/
+2025-09-04 22:40:30,743 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/sports/wwe/top-stories/wwe-legend-reveals-vince-mcmahon-is-dating-againdoes-that-mean-hes-finally-divorced-from-linda-mcmahon/articleshow/123695522.cms
+2025-09-04 22:40:30,866 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:40:31,005 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/sports/wwe/top-stories/wwe-legend-reveals-vince-mcmahon-is-dating-againdoes-that-mean-hes-finally-divorced-from-linda-mcmahon/articleshow/123695522.cms. Will use fallback.
+2025-09-04 22:40:31,005 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/sports/wwe/top-stories/wwe-legend-reveals-vince-mcmahon-is-dating-againdoes-that-mean-hes-finally-divorced-from-linda-mcmahon/articleshow/123695522.cms. Skipping AI summarization/tagging.
+2025-09-04 22:40:31,141 - INFO - ✅ Saved new article: WWE legend reveals Vince McMahon is dating again—D... with ID 68b9c80743644e3755f899d1
+2025-09-04 22:40:31,327 - INFO - 🗑️ Deleted oldest article from articles_sports and base collection.
+2025-09-04 22:40:33,007 - INFO - Processing article: 'Boston Red Sox rookie Roman Anthony leaves game in...' from Times of India
+2025-09-04 22:40:42,447 - INFO - ✅ Saved new article: ICC Women’s World Cup: Ticket prices for league ma... with ID 68b9c81243644e3755f899d2
+2025-09-04 22:40:42,628 - INFO - 🗑️ Deleted oldest article from articles_sports and base collection.
+2025-09-04 22:40:43,873 - INFO - Initiating scrape for Hindustan Times - India: https://www.hindustantimes.com/india-news
+2025-09-04 22:40:49,057 - WARNING - ⚠️ No article blocks found for Hindustan Times - India on https://www.hindustantimes.com/india-news
+2025-09-04 22:40:49,059 - INFO - Initiating scrape for Hindustan Times - World: https://www.hindustantimes.com/world-news
+2025-09-04 22:40:59,733 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/science/the-megaflood-that-brought-the-mediterranean-back-to-life-a-catastrophe-like-no-other/articleshow/123703084.cms
+2025-09-04 22:40:59,830 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:40:59,943 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/science/the-megaflood-that-brought-the-mediterranean-back-to-life-a-catastrophe-like-no-other/articleshow/123703084.cms. Will use fallback.
+2025-09-04 22:40:59,943 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/science/the-megaflood-that-brought-the-mediterranean-back-to-life-a-catastrophe-like-no-other/articleshow/123703084.cms. Skipping AI summarization/tagging.
+2025-09-04 22:41:00,064 - INFO - ✅ Saved new article: The megaflood that brought the Mediterranean back ... with ID 68b9c82343644e3755f899d3
+2025-09-04 22:41:01,329 - INFO - ✅ Fetched with Selenium for https://indianexpress.com/article/technology/science/forget-the-guilt-science-proves-afternoon-naps-boost-your-brain-heart-and-mood-10206873/
+2025-09-04 22:41:02,075 - INFO - Processing article: 'What happens when Earth stops spinning: Science ex...' from Times of India
+2025-09-04 22:41:13,871 - INFO - ✅ Saved new article: Congress cautiously welcomes GST reforms: ‘8 years... with ID 68b9c83143644e3755f899d4
+2025-09-04 22:41:13,885 - ERROR - ❌ Failed to fetch Hindustan Times World page https://www.hindustantimes.com/world-news: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-09-04 22:41:13,885 - INFO - Initiating scrape for Hindustan Times - Sports: https://www.hindustantimes.com/sports
+2025-09-04 22:41:15,198 - INFO - Processing article: '...' from Indian Express
+2025-09-04 22:41:30,088 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/sports/mlb/news/boston-red-sox-rookie-roman-anthony-leaves-game-in-pain-and-lands-on-injured-list-with-major-setback/articleshow/123684892.cms
+2025-09-04 22:41:30,219 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:41:30,369 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/sports/mlb/news/boston-red-sox-rookie-roman-anthony-leaves-game-in-pain-and-lands-on-injured-list-with-major-setback/articleshow/123684892.cms. Will use fallback.
+2025-09-04 22:41:30,369 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/sports/mlb/news/boston-red-sox-rookie-roman-anthony-leaves-game-in-pain-and-lands-on-injured-list-with-major-setback/articleshow/123684892.cms. Skipping AI summarization/tagging.
+2025-09-04 22:41:30,491 - INFO - ✅ Saved new article: Boston Red Sox rookie Roman Anthony leaves game in... with ID 68b9c84243644e3755f899d5
+2025-09-04 22:41:30,637 - INFO - 🗑️ Deleted oldest article from articles_sports and base collection.
+2025-09-04 22:41:31,950 - INFO - Processing article: 'F1 Italian Grand Prix 2025: Date, times, full sche...' from Times of India
+2025-09-04 22:41:38,490 - INFO - ✅ Saved new article: Forget the guilt, science proves afternoon naps ar... with ID 68b9c84a43644e3755f899d6
+2025-09-04 22:41:39,379 - INFO - Processing article: '...' from Indian Express
+2025-09-04 22:41:39,931 - ERROR - ❌ Failed to fetch Hindustan Times Sports page https://www.hindustantimes.com/sports: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-09-04 22:41:39,931 - INFO - Initiating scrape for Hindustan Times - Entertainment: https://www.hindustantimes.com/entertainment
+2025-09-04 22:41:44,648 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/science/what-happens-when-earth-stops-spinning-science-explains/articleshow/123696087.cms
+2025-09-04 22:41:44,755 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:41:44,903 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/science/what-happens-when-earth-stops-spinning-science-explains/articleshow/123696087.cms. Will use fallback.
+2025-09-04 22:41:44,903 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/science/what-happens-when-earth-stops-spinning-science-explains/articleshow/123696087.cms. Skipping AI summarization/tagging.
+2025-09-04 22:41:45,023 - INFO - ✅ Saved new article: What happens when Earth stops spinning: Science ex... with ID 68b9c85043644e3755f899d7
+2025-09-04 22:41:46,184 - WARNING - ⚠️ No article blocks found for Hindustan Times - Entertainment on https://www.hindustantimes.com/entertainment
+2025-09-04 22:41:46,184 - INFO - Initiating scrape for Hindustan Times - Technology: https://www.hindustantimes.com/tech
+2025-09-04 22:41:46,241 - INFO - Processing article: 'Lizards carrying deadly lead levels: They should b...' from Times of India
+2025-09-04 22:41:57,288 - INFO - ✅ Fetched with Selenium for https://indianexpress.com/article/india/express-catch-up-5-stories-you-must-read-today-september-4-10230297/
+2025-09-04 22:41:57,689 - INFO - ✅ Saved new article: 5 stories you must read today, September 4: From S... with ID 68b9c85d43644e3755f899d8
+2025-09-04 22:41:57,894 - INFO - 🗑️ Deleted oldest article from articles_india and base collection.
+2025-09-04 22:41:58,169 - INFO - Initiating scrape for Hindustan Times - Health: https://www.hindustantimes.com/lifestyle/health
+2025-09-04 22:42:06,348 - WARNING - ⚠️ No article blocks found for Hindustan Times - Health on https://www.hindustantimes.com/lifestyle/health
+2025-09-04 22:42:06,348 - INFO - Initiating scrape for Hindustan Times - Science: https://www.hindustantimes.com/it-s-viral
+2025-09-04 22:42:10,377 - ERROR - ❌ Failed to fetch Hindustan Times Technology page https://www.hindustantimes.com/tech: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-09-04 22:42:14,908 - WARNING - ⚠️ No article blocks found for Hindustan Times - Science on https://www.hindustantimes.com/it-s-viral
+2025-09-04 22:42:28,075 - INFO - ✅ Fetched with Selenium for https://indianexpress.com/article/technology/science/scientists-discover-332-antarctic-submarine-canyons-some-as-deep-as-4000-metres-10198785/
+2025-09-04 22:42:39,497 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/science/lizards-carrying-deadly-lead-levels-they-should-be-dead-but-they-are-surviving/articleshow/123694916.cms
+2025-09-04 22:42:39,597 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:42:39,707 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/science/lizards-carrying-deadly-lead-levels-they-should-be-dead-but-they-are-surviving/articleshow/123694916.cms. Will use fallback.
+2025-09-04 22:42:39,741 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/science/lizards-carrying-deadly-lead-levels-they-should-be-dead-but-they-are-surviving/articleshow/123694916.cms. Skipping AI summarization/tagging.
+2025-09-04 22:42:39,854 - INFO - ✅ Saved new article: Lizards carrying deadly lead levels: They should b... with ID 68b9c88743644e3755f899d9
+2025-09-04 22:42:40,869 - INFO - Processing article: 'Amit Kshatriya: An Indian-American appointed as As...' from Times of India
+2025-09-04 22:42:54,058 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/sports/formula-one/news/f1-italian-grand-prix-2025-date-times-full-schedule-and-how-to-watch-live-in-india-us-and-uk/articleshow/123689892.cms
+2025-09-04 22:42:54,185 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:42:54,333 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/sports/formula-one/news/f1-italian-grand-prix-2025-date-times-full-schedule-and-how-to-watch-live-in-india-us-and-uk/articleshow/123689892.cms. Will use fallback.
+2025-09-04 22:42:54,333 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/sports/formula-one/news/f1-italian-grand-prix-2025-date-times-full-schedule-and-how-to-watch-live-in-india-us-and-uk/articleshow/123689892.cms. Skipping AI summarization/tagging.
+2025-09-04 22:42:54,481 - INFO - ✅ Saved new article: F1 Italian Grand Prix 2025: Date, times, full sche... with ID 68b9c89643644e3755f899da
+2025-09-04 22:42:54,703 - INFO - 🗑️ Deleted oldest article from articles_sports and base collection.
+2025-09-04 22:42:56,327 - INFO - Processing article: 'Payton Talbott: The MMA fighter who Refuses to pla...' from Times of India
+2025-09-04 22:42:58,242 - INFO - ✅ Saved new article: Scientists discover 332 Antarctic submarine canyon... with ID 68b9c89a43644e3755f899db
+2025-09-04 22:43:35,521 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/sports/mma/news/payton-talbott-the-mma-fighter-who-refuses-to-play-by-ufcs-rules-of-manhood/articleshow/123517988.cms
+2025-09-04 22:43:35,620 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:43:35,743 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/sports/mma/news/payton-talbott-the-mma-fighter-who-refuses-to-play-by-ufcs-rules-of-manhood/articleshow/123517988.cms. Will use fallback.
+2025-09-04 22:43:35,743 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/sports/mma/news/payton-talbott-the-mma-fighter-who-refuses-to-play-by-ufcs-rules-of-manhood/articleshow/123517988.cms. Skipping AI summarization/tagging.
+2025-09-04 22:43:36,240 - INFO - ✅ Saved new article: Payton Talbott: The MMA fighter who Refuses to pla... with ID 68b9c8c043644e3755f899dc
+2025-09-04 22:43:36,378 - INFO - 🗑️ Deleted oldest article from articles_sports and base collection.
+2025-09-04 22:43:36,612 - INFO - Processing article: 'US Open 2025: History in the making? Yuki Bhambri ...' from Times of India
+2025-09-04 22:43:41,036 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/science/amit-kshatriya-an-indian-american-appointed-as-associate-administrator-and-coo-at-nasa-leading-moon-and-mars-mission/articleshow/123691289.cms
+2025-09-04 22:43:41,129 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:43:41,261 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/science/amit-kshatriya-an-indian-american-appointed-as-associate-administrator-and-coo-at-nasa-leading-moon-and-mars-mission/articleshow/123691289.cms. Will use fallback.
+2025-09-04 22:43:41,261 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/science/amit-kshatriya-an-indian-american-appointed-as-associate-administrator-and-coo-at-nasa-leading-moon-and-mars-mission/articleshow/123691289.cms. Skipping AI summarization/tagging.
+2025-09-04 22:43:41,381 - INFO - ✅ Saved new article: Amit Kshatriya: An Indian-American appointed as As... with ID 68b9c8c543644e3755f899dd
+2025-09-04 22:43:41,923 - INFO - Processing article: 'Watch: Hawaii’s Kilauea volcano erupts again; crow...' from Times of India
+2025-09-04 22:44:30,672 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/sports/tennis/us-open/us-open-2025-history-in-the-making-yuki-bhambri-edges-closer-to-dream-final-with-semis-ticket/articleshow/123690164.cms
+2025-09-04 22:44:30,788 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:44:30,926 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/sports/tennis/us-open/us-open-2025-history-in-the-making-yuki-bhambri-edges-closer-to-dream-final-with-semis-ticket/articleshow/123690164.cms. Will use fallback.
+2025-09-04 22:44:30,926 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/sports/tennis/us-open/us-open-2025-history-in-the-making-yuki-bhambri-edges-closer-to-dream-final-with-semis-ticket/articleshow/123690164.cms. Skipping AI summarization/tagging.
+2025-09-04 22:44:31,048 - INFO - ✅ Saved new article: US Open 2025: History in the making? Yuki Bhambri ... with ID 68b9c8f643644e3755f899de
+2025-09-04 22:44:31,239 - INFO - 🗑️ Deleted oldest article from articles_sports and base collection.
+2025-09-04 22:44:37,767 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/science/watch-hawaiis-kilauea-volcano-erupts-again-crowd-gathers-to-witness-molten-lava/articleshow/123691193.cms
+2025-09-04 22:44:37,825 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:44:37,908 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/science/watch-hawaiis-kilauea-volcano-erupts-again-crowd-gathers-to-witness-molten-lava/articleshow/123691193.cms. Will use fallback.
+2025-09-04 22:44:37,908 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/science/watch-hawaiis-kilauea-volcano-erupts-again-crowd-gathers-to-witness-molten-lava/articleshow/123691193.cms. Skipping AI summarization/tagging.
+2025-09-04 22:44:38,020 - INFO - ✅ Saved new article: Watch: Hawaii’s Kilauea volcano erupts again; crow... with ID 68b9c8fd43644e3755f899df
+2025-09-04 22:44:38,930 - INFO - Processing article: 'James Webb Space Telescope reveals ghostly dust ri...' from Times of India
+2025-09-04 22:45:31,910 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/science/james-webb-space-telescope-reveals-ghostly-dust-rings-this-dead-star-surprises-astronomers/articleshow/123681198.cms
+2025-09-04 22:45:31,983 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:45:32,094 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/science/james-webb-space-telescope-reveals-ghostly-dust-rings-this-dead-star-surprises-astronomers/articleshow/123681198.cms. Will use fallback.
+2025-09-04 22:45:32,094 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/science/james-webb-space-telescope-reveals-ghostly-dust-rings-this-dead-star-surprises-astronomers/articleshow/123681198.cms. Skipping AI summarization/tagging.
+2025-09-04 22:45:32,352 - INFO - ✅ Saved new article: James Webb Space Telescope reveals ghostly dust ri... with ID 68b9c93443644e3755f899e0
+2025-09-04 22:45:32,788 - INFO - Processing article: 'RRI builds credit card-size computer to help trace...' from Times of India
+2025-09-04 22:45:53,747 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/science/rri-builds-credit-card-size-computer-to-help-trace-universes-first-stars/articleshow/123687808.cms
+2025-09-04 22:45:53,802 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:45:53,892 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/science/rri-builds-credit-card-size-computer-to-help-trace-universes-first-stars/articleshow/123687808.cms. Will use fallback.
+2025-09-04 22:45:53,892 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/science/rri-builds-credit-card-size-computer-to-help-trace-universes-first-stars/articleshow/123687808.cms. Skipping AI summarization/tagging.
+2025-09-04 22:45:54,293 - INFO - ✅ Saved new article: RRI builds credit card-size computer to help trace... with ID 68b9c94a43644e3755f899e1
+2025-09-04 22:45:54,909 - INFO - Processing article: 'NASA unveils why the blood moon lights up the sky ...' from Times of India
+2025-09-04 22:46:35,823 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/science/nasa-unveils-why-the-blood-moon-lights-up-the-sky-in-red/articleshow/123678151.cms
+2025-09-04 22:46:35,895 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:46:35,983 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/science/nasa-unveils-why-the-blood-moon-lights-up-the-sky-in-red/articleshow/123678151.cms. Will use fallback.
+2025-09-04 22:46:35,983 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/science/nasa-unveils-why-the-blood-moon-lights-up-the-sky-in-red/articleshow/123678151.cms. Skipping AI summarization/tagging.
+2025-09-04 22:46:36,279 - INFO - ✅ Saved new article: NASA unveils why the blood moon lights up the sky ... with ID 68b9c97443644e3755f899e2
+2025-09-04 22:46:36,995 - INFO - Processing article: 'Why plastic-filled Neptune balls are washing up on...' from Times of India
+2025-09-04 22:47:15,933 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/science/why-plastic-filled-neptune-balls-are-washing-up-on-beaches-seagrass-and-ocean-pollution-explained/articleshow/123672199.cms
+2025-09-04 22:47:16,004 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:47:16,084 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/science/why-plastic-filled-neptune-balls-are-washing-up-on-beaches-seagrass-and-ocean-pollution-explained/articleshow/123672199.cms. Will use fallback.
+2025-09-04 22:47:16,084 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/science/why-plastic-filled-neptune-balls-are-washing-up-on-beaches-seagrass-and-ocean-pollution-explained/articleshow/123672199.cms. Skipping AI summarization/tagging.
+2025-09-04 22:47:16,192 - INFO - ✅ Saved new article: Why plastic-filled Neptune balls are washing up on... with ID 68b9c99c43644e3755f899e3
+2025-09-04 22:47:17,475 - INFO - Processing article: 'Astronomers capture rare images of infant planet W...' from Times of India
+2025-09-04 22:47:56,370 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/science/astronomers-capture-rare-images-of-infant-planet-wispit-2b-in-multi-ringed-birth-disk/articleshow/123670877.cms
+2025-09-04 22:47:56,444 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:47:56,536 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/science/astronomers-capture-rare-images-of-infant-planet-wispit-2b-in-multi-ringed-birth-disk/articleshow/123670877.cms. Will use fallback.
+2025-09-04 22:47:56,536 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/science/astronomers-capture-rare-images-of-infant-planet-wispit-2b-in-multi-ringed-birth-disk/articleshow/123670877.cms. Skipping AI summarization/tagging.
+2025-09-04 22:47:56,686 - INFO - ✅ Saved new article: Astronomers capture rare images of infant planet W... with ID 68b9c9c443644e3755f899e4
+2025-09-04 22:47:57,141 - INFO - Processing article: 'Solar storm hits Earth with 21 lakh kmph winds; po...' from Times of India
+2025-09-04 22:48:50,622 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/science/solar-storm-hits-earth-with-21-lakh-kmph-winds-power-grids-and-satellites-on-high-alert/articleshow/123663993.cms
+2025-09-04 22:48:50,665 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:48:50,712 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/science/solar-storm-hits-earth-with-21-lakh-kmph-winds-power-grids-and-satellites-on-high-alert/articleshow/123663993.cms. Will use fallback.
+2025-09-04 22:48:50,713 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/science/solar-storm-hits-earth-with-21-lakh-kmph-winds-power-grids-and-satellites-on-high-alert/articleshow/123663993.cms. Skipping AI summarization/tagging.
+2025-09-04 22:48:50,823 - INFO - ✅ Saved new article: Solar storm hits Earth with 21 lakh kmph winds; po... with ID 68b9c9fa43644e3755f899e5
+2025-09-04 22:48:51,462 - INFO - Processing article: 'James Webb Space Telescope captures evidence of bl...' from Times of India
+2025-09-04 22:49:29,340 - INFO - ✅ Fetched with Selenium for https://timesofindia.indiatimes.com/science/james-webb-space-telescope-captures-evidence-of-black-hole-birth-via-direct-collapse/articleshow/123656291.cms
+2025-09-04 22:49:29,399 - WARNING - ⚠️ No primary content block found.
+2025-09-04 22:49:29,464 - WARNING - ⚠️ Could not extract specific published date for https://timesofindia.indiatimes.com/science/james-webb-space-telescope-captures-evidence-of-black-hole-birth-via-direct-collapse/articleshow/123656291.cms. Will use fallback.
+2025-09-04 22:49:29,465 - WARNING - ⚠️ Full content extraction failed or too short for https://timesofindia.indiatimes.com/science/james-webb-space-telescope-captures-evidence-of-black-hole-birth-via-direct-collapse/articleshow/123656291.cms. Skipping AI summarization/tagging.
+2025-09-04 22:49:29,615 - INFO - ✅ Saved new article: James Webb Space Telescope captures evidence of bl... with ID 68b9ca2143644e3755f899e6
+2025-09-04 22:54:30,177 - INFO - ✅ Fetched with Selenium for https://indianexpress.com/article/lifestyle/health/an-ent-wants-you-to-know-of-these-hidden-risks-of-using-earphones-during-the-rains-while-it-is-tricky-to-catch-10229949/
+2025-09-04 22:54:59,411 - INFO - ✅ Saved new article: An ENT wants you to know of these hidden risks of ... with ID 68b9cb6b43644e3755f899e7
+2025-09-04 22:55:01,182 - INFO - Processing article: '...' from Indian Express
+2025-09-04 22:55:50,306 - INFO - ✅ Fetched with Selenium for https://indianexpress.com/article/lifestyle/health/raj-kundra-donating-kidney-to-maharaj-premanand-dialysis-2-failed-kidneys-10227176/
+2025-09-04 22:55:50,447 - WARNING - ⚠️ AI summary generation failed for https://indianexpress.com/article/lifestyle/health/raj-kundra-donating-kidney-to-maharaj-premanand-dialysis-2-failed-kidneys-10227176/: index out of range in self. Using best available.
+2025-09-04 22:55:51,198 - INFO - ✅ Saved new article: ‘Meri hai, main kisiko bhi doon’: Raj Kundra on do... with ID 68b9cb9f43644e3755f899e8
+2025-09-04 22:55:53,126 - INFO - Processing article: '...' from Indian Express
+2025-09-04 22:56:01,729 - INFO - Use pytorch device_name: cpu
+2025-09-04 22:56:01,729 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-04 22:56:27,800 - INFO - ✅ Fetched with Selenium for https://indianexpress.com/article/lifestyle/health/your-furniture-might-be-silently-poisoning-you-9693547/
+2025-09-04 22:56:55,468 - INFO - ✅ Saved new article: Your furniture might be silently poisoning you... with ID 68b9cbdf43644e3755f899e9
+2025-09-04 22:56:56,587 - INFO - Processing article: '...' from Indian Express
+2025-09-04 22:57:11,402 - INFO - Use pytorch device_name: cpu
+2025-09-04 22:57:11,403 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-04 22:57:15,965 - INFO - ✅ AI models initialized successfully
+2025-09-04 22:57:16,675 - INFO - ✅ Successfully connected to MongoDB
+2025-09-04 22:57:16,685 - INFO - Application startup: Starting the background scraper task...
+2025-09-04 22:57:16,687 - INFO - 🕒 Starting comprehensive scraping cycle...
+2025-09-04 22:57:16,688 - INFO - Application shutting down.
+2025-09-04 22:57:16,690 - INFO - 📰 Submitting tasks for Indian Express
+2025-09-04 22:57:16,691 - INFO - Scraping finished. Signalling workers to stop and waiting for queue to empty...
+2025-09-04 22:57:49,990 - INFO - ✅ Fetched with Selenium for https://indianexpress.com/article/lifestyle/health/appeal-premium-water-indians-willing-to-pay-price-for-better-health-10220449/
+2025-09-04 22:57:50,169 - WARNING - ⚠️ AI summary generation failed for https://indianexpress.com/article/lifestyle/health/appeal-premium-water-indians-willing-to-pay-price-for-better-health-10220449/: index out of range in self. Using best available.
+2025-09-04 22:57:50,985 - INFO - ✅ Saved new article: Decoding the appeal of premium water: Are Indians ... with ID 68b9cc1643644e3755f899ea
+2025-09-04 22:57:52,134 - INFO - Processing article: '...' from Indian Express
+2025-09-04 22:58:10,914 - INFO - ✅ Fetched with Selenium for https://indianexpress.com/article/lifestyle/health/karan-kundrra-traditional-diet-ghee-fasting-12kg-weight-loss-one-month-10216017/
+2025-09-04 22:58:39,481 - INFO - ✅ Saved new article: ‘I simply went back to the basics’: Karan Kundrra ... with ID 68b9cc4743644e3755f899eb
+2025-09-04 22:58:41,351 - INFO - Processing article: '...' from Indian Express
+2025-09-04 22:59:17,982 - INFO - ✅ Fetched with Selenium for https://indianexpress.com/article/lifestyle/health/dipika-kakar-catching-a-viral-post-liver-cancer-recovery-10225910/
+2025-09-04 22:59:47,041 - INFO - ✅ Saved new article: ‘Infection thoda zyada severe ho gaya kyunki main ... with ID 68b9cc8a43644e3755f899ec
+2025-09-04 22:59:47,548 - INFO - Scraping finished. Signalling workers to stop and waiting for queue to empty...
