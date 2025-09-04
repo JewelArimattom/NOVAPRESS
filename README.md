@@ -66,10 +66,7 @@ The API will be live at:
 
 ---
 
-## 📸 Screenshots (Optional)  
-_Add UI previews here once frontend is running._  
 
----
 
 ## 📂 Project Structure  
 
@@ -83,17 +80,7 @@ _Add UI previews here once frontend is running._
  ┗ 📂 .env            # Environment variables
 ```
 
----
 
-## 🤝 Contributing  
-
-Contributions are welcome! 🚀  
-- Fork the repo  
-- Create a new branch (`feature/my-feature`)  
-- Commit your changes  
-- Submit a PR  
-
----
 
 ## 📜 License  
 
